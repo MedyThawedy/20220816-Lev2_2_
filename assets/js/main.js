@@ -19,5 +19,7 @@ btn.addEventListener('click', () => {
     console.log(outputElement);
 
     document.getElementById('pOutput').innerHTML = outputElement;
+    document.getElementById('pOutput').style.color = 'lightgreen';
+    document.getElementById('pOutput').style.fontSize = '3rem';
     outputValue = '';
 });
